@@ -1,7 +1,10 @@
 name: Deploy portfolio to GitHub Pages
 
-# Manual deployment only. Future pushes do not publish automatically.
+# Deploy pushes to main automatically; retain manual deployment when needed.
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:

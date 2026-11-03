@@ -64,12 +64,12 @@ Responsive one-page design, semantic sections, native project disclosures, mobil
 
 ## Publication status and licensing
 
-### Prepared GitHub Pages deployment
+### GitHub Pages deployment
 
-The `.github/workflows/pages.yml` workflow builds the app with the project-site base `/youssef-el-amrani-portfolio/` and uploads only `dist`. It runs manually through **Actions → Deploy portfolio to GitHub Pages → Run workflow**; pushes do not deploy automatically. GitHub Pages must first be configured to use GitHub Actions. Pushing this configuration does not enable Pages or run a deployment; those operations require separate explicit approval.
+The `.github/workflows/pages.yml` workflow automatically builds and deploys every push to `main`, using the project-site base `/youssef-el-amrani-portfolio/` and uploading only `dist`. Installation, lint and the production build must succeed before deployment. Manual runs remain available through **Actions → Deploy portfolio to GitHub Pages → Run workflow**. GitHub Pages uses GitHub Actions as its publishing source.
 
-The proposed URL is `https://bakirmohammed1234.github.io/youssef-el-amrani-portfolio/`. It is not verified live. The existing `Myportfolio-website` site is a separate project.
+Live portfolio: https://bakirmohammed1234.github.io/youssef-el-amrani-portfolio/
 
-No deployed URL is claimed by this README. Hosting and automatic deployment require separate approval.
+The initial deployment was verified live. Automatic deployment from `main` was explicitly authorized afterward. The existing `Myportfolio-website` site remains a separate project. Changes pushed to `main` will become public after a successful deployment; review them for private information before pushing.
 
 Inter is distributed under the SIL Open Font License; its license is retained in `public/licenses/Inter-OFL.txt`. No license for the application code or portrait has been granted by this project. The educational demo designation does not establish permission to reuse the portrait or personal content.
