@@ -64,6 +64,12 @@ Responsive one-page design, semantic sections, native project disclosures, mobil
 
 ## Publication status and licensing
 
+### Prepared GitHub Pages deployment
+
+The `.github/workflows/pages.yml` workflow builds the app with the project-site base `/youssef-el-amrani-portfolio/` and uploads only `dist`. It runs manually through **Actions → Deploy portfolio to GitHub Pages → Run workflow**; pushes do not deploy automatically. GitHub Pages must first be configured to use GitHub Actions. Pushing this configuration does not enable Pages or run a deployment; those operations require separate explicit approval.
+
+The proposed URL is `https://bakirmohammed1234.github.io/youssef-el-amrani-portfolio/`. It is not verified live. The existing `Myportfolio-website` site is a separate project.
+
 No deployed URL is claimed by this README. Hosting and automatic deployment require separate approval.
 
 Inter is distributed under the SIL Open Font License; its license is retained in `public/licenses/Inter-OFL.txt`. No license for the application code or portrait has been granted by this project. The educational demo designation does not establish permission to reuse the portrait or personal content.
